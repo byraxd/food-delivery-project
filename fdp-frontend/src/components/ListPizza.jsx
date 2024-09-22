@@ -25,7 +25,7 @@ const ListPizza = () => {
 
       <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'></div>
       <div className='col'>
-        <h1 className='text-center'>List of Courses</h1>
+        <h1 className='text-center'>List of Pizza</h1>
                 {pizzas.map(pizza => (
                     <ul className='ul' key={pizza.id}>
                         <li>
