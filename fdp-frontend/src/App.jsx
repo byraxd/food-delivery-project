@@ -18,8 +18,9 @@ function App() {
             <Route path = "/login" element = {<LoginPage/>}></Route>
             <Route path = "/register" element = {<RegisterPage/>}></Route>
           </Routes>
+          <Footer/>
       </BrowserRouter>
-      <Footer/>
+      
     </>
   )
 }

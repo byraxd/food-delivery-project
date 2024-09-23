@@ -11,6 +11,13 @@ const Header = () => {
   function listPizza(){
     navigator("/listPizza");
   }
+  function login(){
+    navigator("/login");
+  }
+  function register(){
+    navigator("/register");
+  }
+
 
   return (
     <div>
@@ -22,6 +29,8 @@ const Header = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li className="nav-item"><a className="nav-link" aria-current="page" href='' onClick={addPizza}>Add pizza</a></li>
                         <li className="nav-item"><a className="nav-link" href="" onClick={listPizza}>List of Pizza</a></li>
+                        <li className="nav-item"><a className="nav-link" href="" onClick={login}>Login</a></li>
+                        <li className="nav-item"><a className="nav-link" href="" onClick={register}>Register</a></li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
